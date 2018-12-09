@@ -1,0 +1,142 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+h2.caption-alhambra{
+    font-size: 5em;
+}
+
+h2.caption-guel{
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.caption-alhambra{
+    color: #f0f8ff;
+    font-size: 2em;
+
+}
+
+.caption-guel{
+    color: #fa8072;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    #myCarousel img {
+        width: auto;
+        height: 200px;
+        max-height: 200px;
+    }
+    #aboutus-image {
+        width: auto;
+        height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #myCarousel img {
+        width: auto;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    .aboutus-image {
+        width: auto;
+        max-height: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #myCarousel img {
+        width: auto;
+        height: 500px;
+        max-height: 600px;
+    }
+
+    .aboutus-image {
+        width: auto;
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #myCarousel img {
+        width: auto;
+        height: 600px;
+        max-height: 600px;
+    }
+    .aboutus-image {
+        width: auto;
+        max-height: 600px;
+    }
+}
+
+#myCarousel{
+    background-color: #dcf7ed;
+}
+
+.title-text{
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.subtitle-text {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.image-subtitle {
+    padding-top: 2em;
+    font-size: 1.2em;
+}
+
+.aboutus-image {
+    width: auto;
+    max-height: 600px;
+}
+
+#ourimages{
+    padding-top: 2em;
+}
+/*Slides JS podesavanje*/
+#slides {
+    display:none;
+}
+
+#slides .slidesjs-previous {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    z-index:999;
+}
+#slides .slidesjs-next{
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    z-index:999;
+}

@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <title>Stylish travel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="ourTeam.html">Our team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container text-center">
+    <h1 class="title-text">Suggestions</h1><br>
+
+    <p class="subtitle-text"> If you have any suggestions for new content, feel free to submit them </p>
+
+    <p class="subtitle-text"> We will revise your suggestion with utmost care!</p>
+
+    <form>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="ime">Name:</label>
+                    <input type="text" class="form-control" id="ime">
+                </div>
+                <div class="form-group">
+                    <label for="prezime">Surname:</label>
+                    <input type="text" class="form-control" id="prezime">
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <div class="form-group">
+                    <label for="interesovanje">Select list:</label>
+                    <select class="form-control" id="interesovanje">
+                        <option>Professional vacation</option>
+                        <option>Hobby vacation</option>
+                        <option>Adventurous vacation</option>
+                        <option>Relaxing vacation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                </div>
+                <div class="form-group">
+                    <label class="radio-inline"><input type="radio" name="pol_kor" checked>Male</label>
+                    <label class="radio-inline"><input type="radio" name="pol_kor">Female</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label for="sugestije">Suggestions:</label>
+                <textarea class="form-control" rows="5" id="sugestije"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+
+
+    </form>
+
+
+</div>
+<br>
+
+
+<footer class="container-fluid text-center">
+    <p>Stylish travel.inc Addres:Belgrade, Jove Ilica 130, Telephone:+381635556667, Email:
+        office@stylishtraveller.com</p>
+</footer>
+</body>
+<script src="script/script.js"></script>
+</html>
